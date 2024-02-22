@@ -1,3 +1,3 @@
 # andacademy-page-design
 
-Created a clone of andacademy pages using plain css and html
+Created a responsive clone of andacademy pages using plain css and html

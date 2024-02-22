@@ -6,43 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
+        <div class="offer-header">
+            <a href="#">
+                10% Scholarship. Ends 15th Feb. Large course fee savings!
+            </a>
+        </div>
         <div class="top">
             <div class="logo">
                 <a href="#">
-                    <img src="/andacademy-page-clone/pics/logo.svg" alt="">
+                    <img src="imgs/logo.svg" alt="">
                 </a>
-                <a class="offer" href="">
+                <a class="offer" href="#">
                     10% Scholarship. Ends 15th Feb. Large course fee savings!
-
-                    <span>
-                        <img src="<img width=" 14" height="18" class="" src="/andacadamy_page/pics/arrow_head.svg"
-                            alt="">
-                    </span>
                 </a>
             </div>
             <nav>
                 <ul class="main-menu">
-                    <li>COURSES+</li>
-                    <li>FOR COMPANIES</li>
-                    <li>ABOUT</li>
-                    <li>RESOURCES</li>
-                    <li>CONTACT</li>
-                    <li class="button">APPLY NOW</li>
+                    <li><a class="hideOnMobile" href="#">COURSES+</a></li>
+                    <li><a class="hideOnMobile" href="#">FOR COMPANIES</a></li>
+                    <li><a class="hideOnMobile" href="#">ABOUT</a></li>
+                    <li><a class="hideOnMobile" href="#">RESOURCES</a></li>
+                    <li><a class="hideOnMobile" href="#">CONTACT</a></li>
+                    <li class="button hideOnMobile"><a href="#">APPLY NOW</a></li>
+                    <li><a class="menu-button" href="#" onclick=showMobileMenu()>Menu</a></li>
                 </ul>
-
             </nav>
         </div>
+
+        <div class="mobile-top">
+            <nav>
+                <div class="mobile-logo">
+                    <a href="#">
+                        <img src="imgs/logo_bw.svg" alt="">
+                    </a>
+                    <a class="close-menu" onclick=closeMenu() href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24" viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a>
+                </div>
+                <ul class="mobile-main-menu">
+                    <li><a href="#">COURSES+</a></li>
+                    <li><a href="#">FOR COMPANIES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">APPLY NOW</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="header_logo">
-            <img src="/andacademy-page-clone/pics/header.png" alt="">
+            <img src="imgs/header.png" alt="">
         </div>
     </header>
 
@@ -50,19 +77,23 @@
         <div class="content">
             <div class="side_bar">
                 <div class="side_menu">
-                    <img src="/andacademy-page-clone/pics/logo 2.png" alt="">
+                    <img src="imgs/logo 2.png" alt="">
                     <ul>
-                        <li class="all blog_links"><a href=""><span>ALL</span></a></li>
-                        <li class="blog_links"><a href=""><span>Graphic Design</span></a></li>
-                        <li class="blog_links"><a href=""><span>Interior Design</span></a></li>
-                        <li class="blog_links"><a href=""><span>UX UI Design</span></a></li>
+                        <li class="all blog_links"><a href="#"><span>ALL</span></a></li>
+                        <li class="blog_links"><a href="#"><span>Graphic Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>Interior Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>UX UI Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>UX UI Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>UX UI Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>UX UI Design</span></a></li>
+                        <li class="blog_links"><a href="#"><span>UX UI Design</span></a></li>
                     </ul>
                 </div>
             </div>
             <div class="main_content">
                 <div class="blog_posts">
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 1.webp" alt="">
+                        <a href="#"><img src="imgs/blog-1.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -73,7 +104,7 @@
                     </div>
 
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 2.webp" alt="">
+                        <a href="#"><img src="imgs/blog-2.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -84,7 +115,7 @@
                     </div>
 
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 3.webp" alt="">
+                        <a href="#"><img src="imgs/blog-3.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -95,7 +126,7 @@
                     </div>
 
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 1.webp" alt="">
+                        <a href="#"><img src="imgs/blog-1.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -106,7 +137,7 @@
                     </div>
 
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 3.webp" alt="">
+                        <a href="#"><img src="imgs/blog-3.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -117,7 +148,7 @@
                     </div>
 
                     <div class="blog_box">
-                        <a href=""><img src="/andacademy-page-clone/pics/blog 2.webp" alt="">
+                        <a href="#"><img src="imgs/blog-2.webp" alt="">
                             <div class="inner-blog">
                                 <p class="blog_h1">UX UI Design</p>
                                 <p class="blog_h2">Your Ultimate Graphic Design Glossary: 50+ Graphic Design Terms
@@ -127,8 +158,7 @@
                         </a>
                     </div>
                 </div>
-
-                <a class="more_button" href="">
+                <a class="more_button" href="#">
                     <span>
                         SHOW
                         <br>
@@ -142,34 +172,34 @@
 
     <footer>
         <div class="footer_1">
-            <div class="footer_link col-1">
+            <div class="footer_link col-1 hideFooter">
                 &nbsp;
             </div>
             <div class="footer_link col-2">
-                <a href="">
+                <a href="#">
                     <em>Graphic Design</em>
                 </a>
 
-                <a href="">
+                <a href="#">
                     <em>User Experience (UX) Design</em>
                 </a>
 
-                <a href="">
+                <a href="#">
                     <em>User Interface (UI) Design</em>
                 </a>
 
-                <a href="">
+                <a href="#">
                     <em>Interior Design</em>
                 </a>
 
-                <a href="">
+                <a href="#">
                     <em>Motion Graphics</em>
                 </a>
             </div>
             <div class="footer_link col-3">
                 <div class="contact">
                     <span>GENERAL ENQUIRY</span>
-                    <a href="">
+                    <a href="#">
                         info@andacadamy.com
                         <br>
                         <!-- &nbsp; -->
@@ -179,7 +209,7 @@
                 <div class="footer_link col-4">
                     <div class="address">
                         <span>ADDRESS</span>
-                        <a href="">
+                        <a href="#">
                             IIAD Campus, B-26, Okhla Phase-1,
                             <br>
                             New Delhi 110020
@@ -187,7 +217,7 @@
                     </div>
 
                     <div class="number">
-                        <a href="">
+                        <a href="#">
                             +91 9289 281414 | +91 11 4138 0000
                         </a>
                     </div>
@@ -198,26 +228,26 @@
 
         <div class="footer_2">
             <div class="footer_link col-1 ">
-                <img src="/andacademy-page-clone/pics/logo.svg" alt="">
+                <img src="imgs/logo.svg" alt="">
             </div>
-            <div class="footer_link col-2">
+            <div class="footer_link col-2 ">
                 <div class="socials">
-                    <a href="">
+                    <a href="#">
                         <em>Linkedin</em>
                     </a>
 
-                    <a href="">
+                    <a href="#">
                         <em>intgaram</em>
                     </a>
                 </div>
                 <div class="copyright_anchor">
-                    Copyright 2024 AND Academy &nbsp;&nbsp; | &nbsp;&nbsp; <a
-                        href="">T&amp;C</a>
+                    <a href="#">Copyright 2024 AND Academy &nbsp;&nbsp; | &nbsp;&nbsp;
+                        T&amp;C</a>
                 </div>
             </div>
-            <div class="footer_link col-3">
+            <div class="footer_link col-3 ">
                 <div class="footer_buttons">
-                    <a class="circle_anch" href="">
+                    <a class="circle_anch" href="#">
                         <span>
                             CONSULT
                             <br>
@@ -227,7 +257,7 @@
                         </span>
                     </a>
 
-                    <a class="circle_anch" href="">
+                    <a class="circle_anch" href="#">
                         <span>
                             JOIN OUR
                             <br>
@@ -235,7 +265,7 @@
                         </span>
                     </a>
 
-                    <a class="circle_anch" href="">
+                    <a class="circle_anch" href="#">
                         <span>
                             HIRE OUR
                             <br>
@@ -243,7 +273,59 @@
                         </span>
                     </a>
 
-                    <a class="square_anch" href="">
+                    <a class="square_anch" href="#">
+                        <span>
+                            ONLINE FEE
+                            <br>
+                            PAYMENT
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer_2 mob-footer">
+            <div class="mob-ft-1">
+                <div class="footer_link col-1 ">
+                    <img src="imgs/logo.svg" alt="">
+                </div>
+                <div class="footer_link col-2 ">
+                    <div class="copyright_anchor">
+                        <a href="#">Copyright 2024 AND Academy &nbsp;&nbsp; | &nbsp;&nbsp;
+                            T&amp;C</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_link col-3 mob-ft-2 ">
+                <div class="footer_buttons">
+                    <a class="circle_anch" href="#">
+                        <span>
+                            CONSULT
+                            <br>
+                            COURSE
+                            <br>
+                            ADVISORS
+                        </span>
+                    </a>
+
+                    <a class="circle_anch" href="#">
+                        <span>
+                            JOIN OUR
+                            <br>
+                            TEAM
+                        </span>
+                    </a>
+
+                    <a class="circle_anch" href="#">
+                        <span>
+                            HIRE OUR
+                            <br>
+                            GRADUATES
+                        </span>
+                    </a>
+
+                    <a class="square_anch" href="#">
                         <span>
                             ONLINE FEE
                             <br>
@@ -256,6 +338,9 @@
         </div>
     </footer>
 
+
+
+    <script src="./js/app.js"></script>
 </body>
 
 </html>

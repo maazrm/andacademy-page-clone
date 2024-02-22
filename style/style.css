@@ -312,7 +312,6 @@ footer {
 
 .col-3{
     margin-right: 70px;
-
     gap: 60px;
 }
 
@@ -574,6 +573,10 @@ footer {
     }
     .offer-header a{
         width: 90%;
+    }
+
+    .col-3{
+        margin-right: 0;
     }
 }
 

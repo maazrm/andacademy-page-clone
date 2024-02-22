@@ -498,7 +498,7 @@ footer {
 @media(max-width: 1143px){
     .side_menu{
         display: flex;
-        position: relative;
+        position: static;
         
     }
     .side_menu ul{

@@ -2,6 +2,15 @@ html{
     box-sizing: border-box;
 }
 
+*{
+    box-sizing: inherit;
+    /* font-family: "Fira Sans Extra Condensed", sans-serif; */
+    font-style: normal;
+
+    font-family: Antarctica-CondensedLight;
+    /* font-family: Antarctica-CondExtLt; */
+}
+
 @font-face {
     font-family: Antarctica-CondensedLight;
     src: url(../fonts/Antarctica-CondensedLight.otf);
@@ -24,14 +33,7 @@ body{
     flex-direction: column;
 }
 
-*{
-    box-sizing: inherit;
-    /* font-family: "Fira Sans Extra Condensed", sans-serif; */
-    font-style: normal;
 
-    font-family: Antarctica-CondensedLight;
-    /* font-family: Antarctica-CondExtLt; */
-}
 
 header{
     display: flex;
@@ -148,7 +150,7 @@ nav{
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin-left: auto;
+    margin: 0 auto;
     gap: 60px;
 }
 
@@ -160,7 +162,7 @@ nav{
 
 .blog_box{
     border: 0.3px solid #707070;
-    width: 29%;
+    width: 31%;
     border-radius: 20px;
     overflow: hidden;
     flex-grow: 0;

@@ -132,7 +132,7 @@ nav{
 
 
 
-/* blod cards */
+/* blog cards */
 
 .body {
     display: flex;
@@ -482,7 +482,7 @@ footer {
 }
 
 
-/* media querys for responsiveness */
+/* Media Queries for responsiveness */
 
 @media(max-width: 1225px){
     .blog_box{

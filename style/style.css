@@ -523,7 +523,7 @@ footer {
         justify-content: center;
     }
     .more_button{
-        margin-left: 40px;
+        margin-left: 95px;
     }
 }
 
@@ -584,6 +584,10 @@ footer {
         width: 48px;
     height: 94px;
     }
+
+    .more_button{
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 576px) {
@@ -591,7 +595,7 @@ footer {
         width: 100%;
     }
     .main_content{
-        padding: 10px 25px;
+        padding: 10px 15px;
     }
     .side_menu{
         padding-left: 30px;

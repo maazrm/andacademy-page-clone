@@ -99,7 +99,9 @@ nav{
     gap: 40px;
 }
 
-
+.logo img{
+    aspect-ratio: auto 63 / 125;
+}
 
 
 
@@ -577,6 +579,11 @@ footer {
     .col-3{
         margin-right: 0;
     }
+
+    .logo img{
+        width: 48px;
+    height: 94px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -584,7 +591,7 @@ footer {
         width: 100%;
     }
     .main_content{
-        padding: 10px 30px;
+        padding: 10px 25px;
     }
     .side_menu{
         padding-left: 30px;

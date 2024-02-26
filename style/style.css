@@ -462,7 +462,7 @@ footer {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    height: 40px;
+    /* height: 40px; */
     border-radius: 18px;
     text-align: center;
     font-size: 16px;
@@ -470,7 +470,6 @@ footer {
     padding: 8px 18px;
     width: 80%;
     justify-content: center;
-    
 }
 
 
@@ -583,5 +582,12 @@ footer {
 @media(max-width: 576px) {
     .offer-header a{
         width: 100%;
+    }
+    .main_content{
+        padding: 10px 30px;
+    }
+    .side_menu{
+        padding-left: 30px;
+        padding-right: 0;
     }
 }

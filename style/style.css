@@ -434,19 +434,24 @@ footer {
 
 
 /* mobile footer */
+.mob-footer{  
+    display: none;
+    justify-content: space-between; 
+}
+
 .mob-ft-1{
     display: flex;
     flex-direction: column;
 }
 
 .mob-ft-2{
-    max-width: 255px;
-    margin-right: 0;
+    /* max-width: 255px; */
+    /* margin-right: 0; */
 }
 
-.mob-footer{  
-    display: none;
-    justify-content: space-between;
+.mob-ft-1, .mob-ft-2{
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 
@@ -608,5 +613,12 @@ footer {
     .side_menu{
         padding-left: 30px;
         padding-right: 0;
+    }
+    .footer_buttons a{
+        height: 80px;
+        width: 80px;
+    }
+    .footer_buttons span{
+        font-size: 14px;
     }
 }

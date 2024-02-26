@@ -479,6 +479,12 @@ footer {
 
 /* media querys for responsiveness */
 
+@media(max-width: 1225px){
+    .blog_box{
+        width: 29%;
+    }
+}
+
 @media(max-width: 1200px){
     .main-menu{
         gap: 10px;
